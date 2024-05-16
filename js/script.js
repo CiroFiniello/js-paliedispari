@@ -6,6 +6,11 @@ function paliCheck(word){
         reverseWord+= character;
         console.log(reverseWord);
     }
+    if(reverseWord == word){
+        console.log('La parola è palindroma')
+    }else{
+        console.log('La parola non è palindroma')
+    }
 
 }
 
