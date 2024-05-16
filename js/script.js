@@ -13,24 +13,36 @@ function paliCheck(word){
     }
 
 }
-                    // Function random Number
+                    // Function pari o dispari
+
+function pariDispari(number){
+
+}
 
 
 
-
-
-
+let globalNumber = 0;
 const userWord = prompt('inserisci una parola');
 paliCheck(userWord);
 
-const userNumber= Number.parseInt(prompt('SCrivi un numero da 1 a 5'));
-if(userNumber < 0 || userNumber < 6 ){
-    console.log('okay');
-    const randomNumber = Math.floor( Math.random() * (5 - 1 + 1) + 1);
-    console.log(randomNumber);
+const userAnswer = prompt('Pari o Dispari?').toLowerCase();
+if (userAnswer == 'pari' || userAnswer == 'dispari'){
+    console.log(userAnswer);
+    const userNumber= Number.parseInt(prompt('SCrivi un numero da 1 a 5'));
+    if(userNumber < 0 || userNumber < 6 ){
+        console.log('okay');
+        const randomNumber = Math.floor( Math.random() * (5 - 1 + 1) + 1);
+        console.log(randomNumber);
+        globalNumber = userNumber + randomNumber;
+        console.log(globalNumber);
+    }else{
+        console.log('riprova');
+    }
 }else{
-    console.log('riprova');
+    alert('Si accettano solo le parole Pari o Dispari')
 }
+
+
 
 
 

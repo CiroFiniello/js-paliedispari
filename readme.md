@@ -35,12 +35,10 @@ premessa: utilizzare solo funzioni create da te, ti sei già fatto cazziare oggi
         \\invertire la parola e salvarla in una variabile
     \\mettere le due parole a confronto, se sono uguali sono palindrome
     altrimenti no.
-    \\la funzione ritornerà un true/false -->
+    \\la funzione ritornerà un console log con la relativa risposta
 
 
+    <!-- Funzione Pari o Dispari -->
+        Prima cosa, si dichiara la funzione con un parametro
+            controlla se 
 
-    <!-- Funzione numero random massimo minimo -->
-   \\ creiamo una funzione con due parametri
-        creiamo una costante e utilizziamo math floor e math random per
-        avere un numero random, poi stabiliamo il minimo e il massimo con la formula
-        
