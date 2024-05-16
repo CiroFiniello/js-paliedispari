@@ -24,3 +24,23 @@ premessa: utilizzare solo funzioni create da te, ti sei già fatto cazziare oggi
         <!-- \\ sommiamo il numero del computer e quello dell'utente -->
             <!-- \\usare una funzione che stabilisce se la somma dei due numeri è pari o dispari  -->
         <!-- \\dichiariamo il vincitore -->
+        
+
+
+
+
+<!-- \\ Funzione palindroma-
+    una parola palindroma è una parola che è uguale se letta in un verso o l'altro, quindi quello che dovremo fare è:
+    \\salvare la parola dell'utente in una costante
+        \\invertire la parola e salvarla in una variabile
+    \\mettere le due parole a confronto, se sono uguali sono palindrome
+    altrimenti no.
+    \\la funzione ritornerà un true/false -->
+
+
+
+    <!-- Funzione numero random massimo minimo -->
+   \\ creiamo una funzione con due parametri
+        creiamo una costante e utilizziamo math floor e math random per
+        avere un numero random, poi stabiliamo il minimo e il massimo con la formula
+        

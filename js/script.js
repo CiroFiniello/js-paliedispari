@@ -1,3 +1,22 @@
+function paliCheck(word){
+    let reverseWord = '';
+
+    for (let index = word.length -1; index >= 0; index--) {
+        const character = word[index];
+        reverseWord+= character;
+        console.log(reverseWord);
+    }
+
+}
+
+
+
+
+
+
+
+const userWord = prompt('inserisci una parola');
+paliCheck(userWord);
 
 
 
