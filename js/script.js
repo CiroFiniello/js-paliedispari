@@ -13,7 +13,7 @@ function paliCheck(word){
     }
 
 }
-
+                    // Function random Number
 
 
 
@@ -22,6 +22,15 @@ function paliCheck(word){
 
 const userWord = prompt('inserisci una parola');
 paliCheck(userWord);
+
+const userNumber= Number.parseInt(prompt('SCrivi un numero da 1 a 5'));
+if(userNumber < 0 || userNumber < 6 ){
+    console.log('okay');
+    const randomNumber = Math.floor( Math.random() * (5 - 1 + 1) + 1);
+    console.log(randomNumber);
+}else{
+    console.log('riprova');
+}
 
 
 
