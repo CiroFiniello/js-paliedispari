@@ -16,12 +16,17 @@ function paliCheck(word){
                     // Function pari o dispari
 
 function pariDispari(number){
-
+    if(number % 2 == 0){
+        return 'pari'
+    }else{
+        return 'dispari'
+    }
 }
 
 
 
 let globalNumber = 0;
+
 const userWord = prompt('inserisci una parola');
 paliCheck(userWord);
 
@@ -35,6 +40,13 @@ if (userAnswer == 'pari' || userAnswer == 'dispari'){
         console.log(randomNumber);
         globalNumber = userNumber + randomNumber;
         console.log(globalNumber);
+        const ritorno = pariDispari(globalNumber);
+        console.log(ritorno);
+        if(ritorno == userAnswer){
+            console.log('Hai vinto!');
+        }else{
+            console.log('Hai Perso!');
+        }
     }else{
         console.log('riprova');
     }
